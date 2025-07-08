@@ -61,9 +61,9 @@ setuptools.setup(
     install_requires=install_requires,
     entry_points={
         'console_scripts': [
-            'ublcii-clean = ublcii:clean',
-            'ubl2cii = ublcii.translate:ubl2cii',
-            'cii2ubl = ublcii.translate:cii2ubl',
+            'ublcii-clean = ublcii2:clean',
+            'ubl2cii = ublcii2.translate:ubl2cii',
+            'cii2ubl = ublcii2.translate:cii2ubl',
         ]
     },
     project_urls={
