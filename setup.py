@@ -43,7 +43,7 @@ classifiers = [
 ]
 
 setuptools.setup(
-    name=about['__title__'],
+    name='ublcii2',
     version=about['__version__'],
     description=about['__summary__'],
     url=about['__url__'],
