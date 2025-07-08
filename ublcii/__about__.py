@@ -13,7 +13,7 @@ __summary__ = 'Translate Invoice UBL 2.1 to/from CrossIndustryInvoice (CII) D16B
 
 __url__ = 'https://converter-ubl-cii-invoice-xml.sourceforge.io'
 
-__version_info__ = (1, 1, 7)
+__version_info__ = (1, 1, 8)
 __version__ = '.'.join(map(str, __version_info__))
 
 __author__ = 'Ludovic Watteaux'
