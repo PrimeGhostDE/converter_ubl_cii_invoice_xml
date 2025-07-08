@@ -8,12 +8,12 @@ __all__ = [
     '__author__', '__email__', '__license__', '__copyright__',
 ]
 
-__title__ = 'ublcii'
+__title__ = 'ublcii2'
 __summary__ = 'Translate Invoice UBL 2.1 to/from CrossIndustryInvoice (CII) D16B'
 
 __url__ = 'https://converter-ubl-cii-invoice-xml.sourceforge.io'
 
-__version_info__ = (1, 1, 5)
+__version_info__ = (1, 1, 6)
 __version__ = '.'.join(map(str, __version_info__))
 
 __author__ = 'Ludovic Watteaux'
