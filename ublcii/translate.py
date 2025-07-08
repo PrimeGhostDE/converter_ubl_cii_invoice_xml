@@ -13,6 +13,10 @@ try:
 except ImportError:
     from xml.etree import ElementTree as etree
 
+import django.utils.translation
+django.utils.translation.ugettext = django.utils.translation.gettext
+django.utils.translation.ugettext_lazy = django.utils.translation.gettext_lazy
+
 from bots import botsinit
 try:
     import bots.config_ublcii
