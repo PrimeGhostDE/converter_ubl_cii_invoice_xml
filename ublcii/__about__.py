@@ -8,7 +8,7 @@ __all__ = [
     '__author__', '__email__', '__license__', '__copyright__',
 ]
 
-__title__ = 'ublcii'
+__title__ = 'ublcii2'
 __summary__ = 'Translate Invoice UBL 2.1 to/from CrossIndustryInvoice (CII) D16B'
 
 __url__ = 'https://converter-ubl-cii-invoice-xml.sourceforge.io'
