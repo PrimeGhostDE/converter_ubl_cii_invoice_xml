@@ -89,7 +89,7 @@ def setupenv(botsenv='_ublcii', **kwargs):
 
     update_egg_info = kwargs.get('update_egg_info', install or devel)
     additional_files = []
-    pkg = pkg_resources.get_distribution(__package__)
+    pkg = pkg_resources.get_distribution('ublcii2')
     bots_pkg = pkg_resources.get_distribution('bots-ediint')
     if hasattr(bots_pkg, 'zipinfo'):
         raise Exception('Zipped bots package is not compatible with ublcii')
