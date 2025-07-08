@@ -259,7 +259,7 @@ Author: %(author)s\
 
     config_arg = '-c%s' % config_dir
 
-    pargs = ['bots-engine', config_arg, route]
+    pargs = ['/var/www/.local/bin/bots-engine', config_arg, route]
 
     try:
         proc = subprocess.Popen(pargs, stdout=STDOUT, stderr=STDERR)
