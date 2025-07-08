@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Setup for converter ubl <> cii invoice xml (ublcii)"""
+"""Setup for converter ubl <> cii invoice xml (ublcii2)"""
 
 import os
 import setuptools
